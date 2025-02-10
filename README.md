@@ -27,10 +27,10 @@ Task Manager is a simple React-based application that allows users to manage the
    ```
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
-The application will be available at `http://localhost:3000`.
+The application will be available at `http://localhost:5173`.
 
 ## Usage
 

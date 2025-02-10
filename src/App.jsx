@@ -50,7 +50,7 @@ function App() {
   }
 
   const toggleFinished = () => {
-  setShowfinished(!showFinished)
+    setShowfinished(!showFinished)
   }
 
   return (
@@ -64,8 +64,8 @@ function App() {
           <button onClick={handleAdd} className='bg-rose-800 hover:bg-rose-600 text-white px-4 py-2 rounded-md ml-3'>Save</button>
         </div>
         <div className='flex gap-3 mt-4'>
-        <input type="checkbox" checked={showFinished} onChange={toggleFinished} />
-        <span className='text-sm'>Show Finished Task</span>
+          <input type="checkbox" checked={showFinished} onChange={toggleFinished} />
+          <span className='text-sm'>Show Finished Task</span>
         </div>
         <h2 className='font-bold text-xl text-rose-800 my-6'>List of Tasks</h2>
         {todos.length === 0 && <div className='mt-5 font-thin'>No tasks added yet</div>}
